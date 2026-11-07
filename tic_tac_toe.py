@@ -74,10 +74,12 @@ while True:
     elif(checking_winner(table)=="O"):
         print("'O' wins" )
         print_table(table)
+        break
     else:
         if checking_draw(table):
             print("Match Draw")
             print_table(table)
+            break
     
 
 
